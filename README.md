@@ -25,6 +25,19 @@ For non-UITableViewControllers, drop the `TPKeyboardAvoidingScrollView.m` and `T
 
 To disable the automatic "Next" button functionality, change the UITextField's return key type to anything but UIReturnKeyDefault.
 
+
+### Installation with CocoaPods
+
+[CocoaPods](http://cocoapods.org) is a dependency manager for Objective-C/WSwift, which automates and simplifies the process of using 3rd-party libraries lin your projects.
+
+#### Podfile
+
+```ruby
+platform :ios, '7.0'
+pod "TPKeyboardAvoiding", "~> x.y"
+```
+Replace the x/y with the current verison
+
 Notes
 -----
 
